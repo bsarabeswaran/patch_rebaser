@@ -9,7 +9,8 @@ with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 requirements = [ 'Distroinfo>=0.1',
-                 'git_wrapper>=0.2.1' ]
+                 'git_wrapper>=0.2.1',
+                 'toolchest' ]
 
 setup_requirements = [ 'pytest-runner',  ]
 
