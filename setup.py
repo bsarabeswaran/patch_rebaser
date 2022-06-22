@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 requirements = [ 'Distroinfo>=0.1',
                  'git_wrapper>=0.2.1' ]
 
-setup_requirements = [ 'pytest-runner',  ]
+setup_requirements = []
 
 test_requirements = [ 'mock', 'pytest', ]
 
